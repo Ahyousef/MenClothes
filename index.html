@@ -8,11 +8,11 @@
 </head>
 <body style="background-image: url(https://d3d71ba2asa5oz.cloudfront.net/12007880/images/170101100070ebabcdf3666520643794_510__2.jpg);">
     <header>
-        <div class="title">
+        <div id="headlogo" class="title">
             <img src="https://cdn.freebiesupply.com/logos/large/2x/medium-m-logo-png-transparent.png" width="100px" alt="logo">
             <h1> Men's Clothes</h1> 
         </div>
-        <nav>
+        <nav id="navb">
             <ul>
                 <li>
                     <a href="Home.html">Home</a>
@@ -27,10 +27,13 @@
             </ul>
         </nav>
         <div class="news">
-            <p>News Updates Fresh Collections</p>
+            <p>Click on the button below for a surprise</p>
         </div>
     </header>
     <main>
+        <section>
+            <button class="coloro" onclick="color()">Click me for color</button>
+        </section>
         <section class="all">
             <article class="product">
                 <section>
@@ -86,4 +89,7 @@
             <p style="padding-left: 800px;">© 2020, Ahmed Yousef. All rights reserved.</p>
         </section>
     </footer>
+    <script src="script.js"></script>
+    <body onload="load()"></body>
+</body>
 </html>

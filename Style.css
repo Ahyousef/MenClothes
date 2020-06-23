@@ -86,7 +86,7 @@ footer section p{
     margin-bottom: 50px;
     white-space: nowrap;
     animation: floatText 15s reverse infinite linear;
-    padding-left: 75%;
+    padding-left: 65%;
     background-color: skyblue;
 }
 
@@ -113,4 +113,23 @@ footer section p{
     background-color: rgb(177, 54, 32);
     box-shadow:0 4px rgb(36, 36, 36) ;
     transform: translateY(3px);
+}
+
+.coloro{
+    margin-left: 600px;
+    margin-bottom: 35px;
+    border-radius: 15px;
+    border: hidden;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: green;
+    box-shadow: 0 5px rgb(206, 204, 204);
+}
+
+.coloro:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow:0 4px rgb(36, 36, 36) ;
+    transform: translateY(3px);  
 }
